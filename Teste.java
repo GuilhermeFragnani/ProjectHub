@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Teste {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int hora;
+    int hour;
 
-    System.out.println("Que horas são? ");
-    hora = sc.nextInt();
+    System.out.println("What time is it ");
+    hour = sc.nextInt();
 
-    if (hora < 12) {
-      System.out.println("Bom Dia!");
-    } else if (hora < 18) {
-      System.out.println("Boa Tarde!");
+    if (hour < 12) {
+      System.out.println("Good Morning!");
+    } else if (hour < 18) {
+      System.out.println("Good Evening!");
     } else {
-      System.out.println("Boa noite!");  
+      System.out.println("Good Night!");  
     }
     sc.close();
   }

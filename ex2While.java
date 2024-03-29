@@ -4,42 +4,42 @@ public class ex2While {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Digite o numero no quadrante X:");
+    System.out.println("Type a number at quadrant X:");
     int x = sc.nextInt();
-    System.out.println("Digite o numero no quadrante Y:");
+    System.out.println("Type a number at quadrant  Y:");
     int y = sc.nextInt();
 
     while (x != 0 || y != 0) {
       if (x > 1 && y > 1) { // certo
-        System.out.println("Primeiro Quadrante");
-        System.out.println("Digite novamente o de X:");
+        System.out.println("First quadrant");
+        System.out.println("Type again X:");
         x = sc.nextInt();
-        System.out.println("Digite novamente o de Y:");
+        System.out.println("Type again Y:");
         y = sc.nextInt();
       }
       else if (x < 0 && y > 0) {
-        System.out.println("Segundo Quadrante!");
-        System.out.println("Digite novamente o de X:");
+        System.out.println("Second Quadrant!");
+        System.out.println("Type again X:");
         x = sc.nextInt();
-        System.out.println("Digite novamente o de Y:");
+        System.out.println("Type again Y:");
         y = sc.nextInt();
       } 
       else if (x < 0 && y < 0) {
-        System.out.println("Terceiro Quadrante!");
-        System.out.println("Digite novamente o de X:");
+        System.out.println("Third Quadrant!");
+        System.out.println("Type again X:");
         x = sc.nextInt();
-        System.out.println("Digite novamente o de Y:");
+        System.out.println("Type againY:");
         y = sc.nextInt();
       }
       else if (x > 1 && y < 0) { 
-        System.out.println("Quarto Quadrante!");
-        System.out.println("Digite novamente o de X:");
+        System.out.println("Fourth Quadrant!");
+        System.out.println("Type again X:");
         x = sc.nextInt();
-        System.out.println("Digite novamente o de Y:");
+        System.out.println("Type again Y:");
         y = sc.nextInt();
       } 
       if (x == 0 || y == 0) {
-        System.out.println();
+        System.out.println("No one!");
         break;
       }
     }

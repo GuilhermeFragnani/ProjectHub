@@ -4,15 +4,15 @@ public class ex1While {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Digite a senha de 4 dígitos:");
-    int senha = sc.nextInt();
+    System.out.println("Type the 4 digit password:");
+    int password = sc.nextInt();
 
-    while (senha != 2002) {
-      System.out.println("Senha incorreta, digite novamente: ");
-      senha = sc.nextInt();
+    while (password != 2002) {
+      System.out.println("Incorrect, type again: ");
+      password = sc.nextInt();
     }
-    if (senha == 2002) {
-      System.out.println("Acesso permitido");
+    if (password == 2002) {
+      System.out.println("Access allowed");
     }
     sc.close();
   }
