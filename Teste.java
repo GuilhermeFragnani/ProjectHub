@@ -5,7 +5,7 @@ public class Teste {
     Scanner sc = new Scanner(System.in);
     int hour;
 
-    System.out.println("What time is it ");
+    System.out.println("What time is it? ");
     hour = sc.nextInt();
 
     if (hour < 12) {
